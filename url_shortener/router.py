@@ -47,7 +47,8 @@ async def Enter_URL(shortner: CreateUrlShortener):
 
     return CreateUrlShortenerResponse(short_url=short_url, url=validated_url)
 
-# Get the urls from the database
+
+# Get All urls from the database
 @url_shortener.get("/list", response_model=list[CreateUrlShortenerResponse])
 async def Fetch_History():
     # Get the data from the database
