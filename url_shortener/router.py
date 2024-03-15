@@ -6,7 +6,7 @@ import urllib.parse
 import secrets
 import string
 from pydantic import ValidationError
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Requests
 from url_shortener.models import CreateUrlShortener, CreateUrlShortenerResponse
 from url_shortener.database import MockDBOperations
 from starlette.responses import RedirectResponse
