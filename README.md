@@ -12,21 +12,21 @@ QR Code Generation: The app generates QR codes for the shortened links, making i
 
 ## Useful Commands
 
-# For creating Python virtual environments
+### For creating Python virtual environments
     Python -m venv venv
     source venv/scripts/activate
 
-## FastAPI installation
+### FastAPI installation
     pip install fastapi
     pip install uvicorn
 
 ### command to run the application in local
     uvicorn main:app --reload
 
-# Install the requirements files
+### Install the requirements files
     pip install -r requirements.txt
 
-# For removing python cache files
+### For removing python cache files
     pyclean
 
 
