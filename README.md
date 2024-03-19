@@ -36,6 +36,7 @@ API Documentation The URL Shorten Clone Python App provides an API for programma
 
 Contributing Contributions to the AltSchool Capstone Project and the URL Shorten Clone Python App are welcome! If you encounter any bugs, have feature requests, or would like to contribute code, please open an issue or submit a pull request to this repository. Your contributions will help improve the functionality and usability of the application.
 
+
 License This project is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
 
 
