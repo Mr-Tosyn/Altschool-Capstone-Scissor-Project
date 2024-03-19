@@ -28,3 +28,6 @@ QR Code Generation: The app generates QR codes for the shortened links, making i
 
 # For removing python cache files
     pyclean
+
+
+License This project is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
