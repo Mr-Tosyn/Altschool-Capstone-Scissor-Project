@@ -6,14 +6,21 @@
     <title>URL Shortener</title>
 </head>
 <body>
-    <h1>Scissor URL Shortener</h1>
-    <form action="/shorten/" method="post">
-        <label for="long_url">Enter URL:</label><br>
-        <input type="text" id="long_url" name="long_url" required><br>
-        <button type="submit">Shorten</button>
-    </form>
-    {% if shortened_url %}
-        <p>Shortened URL: <a href="{{ shortened_url }}" target="_blank">{{ shortened_url }}</a></p>
-    {% endif %}
+    <main>
+        <h1>Scissor URL Shortener</h1>
+        <form action="/shorten/" method="post">
+            <label for="long_url">Enter URL:</label><br>
+            <input type="text" id="long_url" name="long_url" required><br>
+            <button type="submit">Shorten</button>
+        </form>
+        {% if shortened_url %}
+            <p>Shortened URL: <a href="{{ shortened_url }}" target="_blank">{{ shortened_url }}</a></p>
+        {% endif %}
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/oluwatosin-adesua-7145a690/"><img src="https://www.bing.com/th?id=OIP.1R2nLh9Gdbpa75yVbtTFYgHaHY&w=150&h=149&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="100px"></a>
+        <a href="https://github.com/Mr-Tosyn"><img src="https://www.bing.com/th?id=OIP.fqZ9-PPqcG_cm0k3JfoINQHaEK&w=185&h=104&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="github icon by pixel perfect" width="100px"></a>
+        <a href="https://twitter.com/BoboNoGoDie"><img src="https://www.bing.com/th?id=OIP.GvhQyyfMGA49XVPJ_uvG0gHaEK&w=283&h=150&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="100px" ></a>
+    </footer>
 </body>
 </html>
